@@ -1,5 +1,5 @@
 <?php
-require_once '../___class/DB.php';
+require_once '../src/DB.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['txtLoginEmail'];
@@ -63,10 +63,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <h1>Admin Panel</h1>
     
-    <script src="../scripts/sweetalert2.all.min.js"></script>
-    <?php if (isset($error)): ?>
-        <p style="color: red;"><?php echo $error; ?></p>
-    <?php endif; ?>
 
     <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
         <label for="txtLoginEmail">Email:</label>
