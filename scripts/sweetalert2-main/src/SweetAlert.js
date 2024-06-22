@@ -97,6 +97,10 @@ export class SweetAlert {
   finally(onFinally) {
     return this.#promise.finally(onFinally)
   }
+
+  static  fire(...args) {
+    return new SweetAlert(...args)
+  }
 }
 
 /**

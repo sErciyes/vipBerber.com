@@ -1,0 +1,17 @@
+{
+    "require": {
+        "illuminate/database": "^11.0",
+        "illuminate/events": "^11.0",
+        "illuminate/hashing": "^11.10",
+        "php": "^8.2.12",
+        "phpmailer/phpmailer": "^6.9",
+        "laravel/socialite": "^5.14",
+        "laravel/tinker": "^2.9",
+        "google/apiclient": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "vipBerber\\": "src/"
+        }
+    }
+}

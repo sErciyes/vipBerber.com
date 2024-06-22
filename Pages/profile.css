@@ -1,0 +1,194 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.profile-container h1, .profile-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic-container {
+    margin-bottom: 20px;
+}
+
+.profile-container img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.profile-container label {
+    width: 100%;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="tel"],
+.profile-container input[type="file"],
+.profile-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.profile-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.profile-container button:hover {
+    background-color: #218838;
+}
+
+.form-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.form-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-section label {
+    width: 100%;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.appointments-container {
+    margin-top: 30px;
+}
+
+.randevu-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.randevu-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.randevu-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.randevu-container table th, .randevu-container table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.randevu-container table th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.randevu-container table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.randevu-container table tr:hover {
+    background-color: #e9ecef;
+}
+
+.randevu-container form {
+    display: flex;
+}
+
+.randevu-container form button {
+    margin-left: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.randevu-container form button:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.randevu-container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.randevu-container a:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-container {
+        width: 100%;
+    }
+}
